@@ -1,27 +1,57 @@
-# LibertySite
+#Description
+Liberty NFT Marketplace est une application web développée avec Angular et Tailwind CSS. Elle permet aux utilisateurs de créer, mettre en vente et acheter des NFTs. Le projet utilise un backend JSON Server pour simuler une API RESTful et gérer les données des NFTs.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+#Installation
+Suivez ces étapes pour installer et exécuter le projet en local :
 
-## Development server
+Clonez le dépôt
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Copier le code
+ https://github.com/kevine06/Liberty-App.git
+cd liberty-site
+Installez les dépendances
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm install
+Installez JSON Server
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install -g json-server
+Configuration
+Assurez-vous que json-server est configuré pour démarrer avec les données initiales.
 
-## Running unit tests
+Démarrez JSON Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+json-server --watch src/db.json
+Démarrez l'application Angular
 
-## Running end-to-end tests
+ng serve
+Accédez à l'application via http://localhost:4200.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Utilisation
+L'application est divisée en plusieurs sections :
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Accueil : Présente les collections les plus en vogue.
+Explorer : Permet de naviguer à travers différentes collections et articles.
+Détail de l'article : Affiche les détails d'un NFT spécifique.
+Auteur : Présente des informations sur les artistes.
+Créer votre NFT : Permet aux utilisateurs de créer et de mettre en vente leurs propres NFTs.
+Structure du Projet
+Copier le code
+liberty-site/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── navbar/
+│   │   │   ├── footer/
+│   │   │   ├── page/app-home
+│   │   ├── liberty.service.ts
+│   │   ├── models/
+│   │   │   ├── model.ts
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   ├── assets/
+│   ├── styles/
+│   │   ├── tailwind.css
+├── db.json
+├── README.md
