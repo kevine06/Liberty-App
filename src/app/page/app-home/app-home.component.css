@@ -1,0 +1,80 @@
+.underline-custom::after {
+    content: "";
+            display: block;
+            width: 10%;
+            height: 2px;
+            background-color: #7453FC;
+            position: absolute;
+            top: -20px; 
+            left: 50%;
+            transform: translateX(-50%);
+}
+.relative-button {
+    position: relative;
+}
+.underline-white-custom::after {
+    content: "";
+            display: block;
+            width: 17%;
+            height: 2px;
+            background-color: #ffffff;
+            position: absolute;
+            top: -20px; 
+            left: 3rem;
+            transform: translateX(-50%);
+}
+.line-custom::after {
+    content: "";
+            display: block;
+            width: 80%;
+            height: 1px;
+            background-color: #ccafaf;
+            position: absolute;
+            top: 2.5rem; 
+            left: 40%;
+            transform: translateX(-50%);
+}
+
+.line-custom-line::after {
+    content: "";
+            display: block;
+            width: 80%;
+            height: 2px;
+            background-color: #ffffff;
+            position: absolute;
+            bottom: 0.4px; 
+            left: 50%;
+            z-index: 20;
+            transform: translateX(-50%);
+}
+.line-custom-lines::after {
+    content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #bdb3b375;
+            position: absolute;
+            bottom: 0.4px; 
+            left: 50%;
+            z-index: 20;
+            transform: translateX(-50%);
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100%;
+    background-color: #7453FC; /* Adjust the color as needed */
+    position: absolute;
+
+    transform: translateX(-50%);
+}
+.container {
+    position: relative;
+   
+}
+
+.space{
+    width: 0.8px;
+    height: 15rem;
+    border: 0.2px solid #c4c4c152;
+}
