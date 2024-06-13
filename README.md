@@ -1,5 +1,5 @@
 #Description
-Liberty NFT Marketplace est une application web développée avec Angular et Tailwind CSS. Elle permet aux utilisateurs de créer, mettre en vente et acheter des NFTs. Le projet utilise un backend JSON Server pour simuler une API RESTful et gérer les données des NFTs.
+Liberty-App est une application web développée avec Angular et Tailwind CSS. Elle permet aux utilisateurs de créer, mettre en vente et acheter des NFTs. Le projet utilise un backend JSON Server pour simuler une API RESTful et gérer les données des NFTs.
 
 #Installation
 Suivez ces étapes pour installer et exécuter le projet en local :
