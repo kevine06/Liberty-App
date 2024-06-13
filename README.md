@@ -33,25 +33,26 @@ L'application est divisée en plusieurs sections :
 
 Accueil : Présente les collections les plus en vogue.
 Explorer : Permet de naviguer à travers différentes collections et articles.
-Détail de l'article : Affiche les détails d'un NFT spécifique.
-Auteur : Présente des informations sur les artistes.
-Créer votre NFT : Permet aux utilisateurs de créer et de mettre en vente leurs propres NFTs.
-Structure du Projet
-Copier le code
-liberty-site/
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── navbar/
-│   │   │   ├── footer/
-│   │   │   ├── page/app-home
-│   │   ├── liberty.service.ts
-│   │   ├── models/
-│   │   │   ├── model.ts
-│   │   ├── app.component.ts
-│   │   ├── app.module.ts
-│   ├── assets/
-│   ├── styles/
-│   │   ├── tailwind.css
-├── db.json
-├── README.md
+Détail de l'article : Affiche les détails d'un NFT spécifique.<b>
+Auteur : Présente des informations sur les artistes.<br>
+Créer votre NFT : Permet aux utilisateurs de créer et de mettre en vente leurs propres NFTs.<br>
+Structure du Projet<br/>
+<br>
+<br>
+liberty-site/<br>
+├── src//<br>
+│   ├── app//<br>
+│   │   ├── components//<br>
+│   │   │   ├── navbar//<br>
+│   │   │   ├── footer//<br>
+│   │   │   ├── page/app-home/<br>
+│   │   ├── liberty.service.ts/<br>
+│   │   ├── models//<br>
+│   │   │   ├── model.ts/<br>
+│   │   ├── app.component.ts/<br>
+│   │   ├── app.module.ts//<br>
+│   ├── assets//<br>
+│   ├── styles//<br>
+│   │   ├── tailwind.css//<br>
+├── db.json/<br>
+├── README.md/<br>
